@@ -10,14 +10,36 @@
 }
 
 :root {
-    --main: #FAFFAF;
-    --primary-colour: #0F67B1;
-    --secondary-colour: #3FA2F6;
-    --background: #96C9F4;
+    --main: #21a179ff;
+    --primary-colour: #2541b2ff;
+    --secondary-colour: #0496ffff;
+    --background: #f2f4f3ff;
 }
 
 body {
     font-family: "League Gothic", sans-serif;
-    font-size: 120px;
     background-color: var(--background);
+    letter-spacing: 1px;
+}
+.navbar {
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.nav-container {
+    width: 100%;
+    height: 50px;
+    min-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+}
+
+.nav-left a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
 }
